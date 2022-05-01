@@ -6,7 +6,8 @@ let productInformation_API = [
     { productName: 'C', department: 'Store', price: 5, id: 345, },
     { productName: 'D', department: 'Store', price: 4, id: 67874, },
     { productName: 'E', department: 'Store', price: 1.5, id: 9784, },
-    { productName: 'F', department: 'Store', price: 1.4, id: 9484, }
+    { productName: 'F', department: 'Store', price: 1.4, id: 9484, },
+    { productName: 'G', department: 'Store', price: 1.4, id: 4484, }
 ];
 
 const ProductBuilder = () => (
