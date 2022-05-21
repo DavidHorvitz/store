@@ -22,7 +22,7 @@ const ProductBuilder = props => {
             {props.productData.map((p_Api, index) => (
                 <ProductCard
                     key={p_Api.id} productName={p_Api.productName} department={p_Api.department}
-                    price={p_Api.price} id={p_Api.id} />
+                    price={p_Api.price} id={p_Api.id}  />
             ))}
         </div>
     );
