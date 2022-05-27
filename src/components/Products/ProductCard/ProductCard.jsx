@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../StyleComponents/Button/Button";
+import ButtonCount from "../../Templetes/ButtonCount/ButtonCount";
 import productCard from './ProductCard.css';
 
 const ProductCard = (props) => {
@@ -15,7 +15,7 @@ const ProductCard = (props) => {
             <p> Department : {department}</p>
             <p className="price"> price : {price}</p>
             <p>{id}</p>
-            <Button />
+            <ButtonCount />
         </div>
     );
 }

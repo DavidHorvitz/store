@@ -1,0 +1,53 @@
+// #divCount {
+//     border: none;
+//     outline: 0;
+//     /* padding: 12px; */
+//     color: white;
+//     background-color: rgb(86, 79, 79);
+//     text-align: center;
+//     cursor: pointer;
+//     width: 100%;
+//     font-size: 18px;
+//     display: inline-block;
+//   }
+//   .button:hover {
+//     opacity: 0.7;
+//     font-style: italic;
+//   }
+  .button_Continer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // margin: 20px;
+    .add_to_cart_button {
+        background-color: rgb(44, 183, 66);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid rgb(44, 183, 66);
+        width: 200px;
+        margin-right: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(44, 183, 66);
+        }
+    }
+}
+  /* .productCard{ */
+/* background-color: rgb(172, 183, 183); */
+/* display: inline-block; */
+/* margin: 10px; */
+/* border: 2px solid #eee; */
+/* box-shadow: 0 2px 5px #ccc; */
+/* width: 150px; */
+/* height: 250px; */
+/* padding: 20px; */
+/* } */
+/* new */
+ 
