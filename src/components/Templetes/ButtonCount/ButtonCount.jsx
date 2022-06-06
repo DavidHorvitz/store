@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import buttonCount from './ButtonCount.scss';
 
-const ButtonCount = () => {
+const ButtonCount = props => {
    
     const [count, setCount] = useState(0);
 
@@ -26,7 +26,7 @@ const ButtonCount = () => {
         <div className="button_Continer">
 
             {/* <button onClick={countUp}>+</button> */}
-            <button className="add_to_cart_button">Add to cart {count}</button>
+            <button onClick={() => props.clicked()} className="add_to_cart_button">Add to cart {count}</button>
             {/* <button onClick={countDown}>-</button> */}
 
         </div>

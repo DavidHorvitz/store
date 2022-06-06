@@ -1,16 +1,21 @@
-import { GET_ALL_PRODUCT } from '../action/getData';
-import { SET_PRODUCT } from '../action/setData';
-import {CART_LIST} from '../action/CartList'
-import {BEYOND_PAYMENT} from '../action/beyond_paymentAction'
+import { ADD_TO_CART } from "../action/cartHeandler";
 
-const defaultState = []
+const defaultState = [
+//     {
+//         productName: '',
+//         department: '',
+//         price: '',
+//         id: '',   
+//         quantity: 0,   
+//    }
+]
 export default (state = defaultState, action) => {
     switch (action.type) {
-        case GET_ALL_PRODUCT:
-            return action.payload;
-        case SET_PRODUCT:
+        case ADD_TO_CART:
+            console.log(ADD_TO_CART);
             const newState = [...state];
-            newState.push(action.payload);
+            newState.push({...action.payload, quantity: 1});
+            console.log(newState);
             return newState;
         default:
             return state;

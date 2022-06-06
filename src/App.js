@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 
 import { connect } from 'react-redux';
@@ -28,6 +27,7 @@ const App = props => {
     });
   };
   useEffect(() => {
+
     props.getAllProducts();
   }, [])
   return (
