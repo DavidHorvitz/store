@@ -6,6 +6,5 @@ const MainProduct = (props) => (
         <h1 id="os">Online shop</h1>
         <ProductBuilder />
     </div>
-
 ) ;
 export default MainProduct;
