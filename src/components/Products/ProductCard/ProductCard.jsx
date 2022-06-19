@@ -26,13 +26,15 @@ const ProductCard = (props) => {
     };
 
     return (
-        <div className="card">
-            <p> Name : {productName}</p>
-            <p> Department : {department}</p>
-            <p className="price"> price : {price}</p>
-            <p>{id}</p>
-            <ButtonCount clicked={addToCart} />
-        </div>
+        
+            <div className="card">
+                <p> Name : {productName}</p>
+                <p> Department : {department}</p>
+                <p className="price"> price : {price}</p>
+                <p>{id}</p>
+                <ButtonCount clicked={addToCart} />
+            </div>
+    
     );
 }
 

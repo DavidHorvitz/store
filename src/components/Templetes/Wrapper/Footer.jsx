@@ -1,10 +1,10 @@
 import React from "react";
-import footer from './footer.scss'
+import aside from './wrapper.css'
+
 const Footer = ()=>{
     return(
-        <div id="footer">
-
-        </div>
+        <aside id="aside">
+        </aside>
     )
 }
 export default Footer;

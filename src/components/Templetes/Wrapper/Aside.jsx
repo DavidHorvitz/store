@@ -1,10 +1,10 @@
 import React from "react";
-import aside from './aside.scss'
+import aside from './wrapper.css'
+
 const Aside = ()=>{
     return(
-        <div id="aside">
-
-        </div>
+        <aside id="aside">
+        </aside>
     )
 }
 export default Aside;
